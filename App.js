@@ -5,11 +5,10 @@ import HomeScreen from './screens/HomeScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Imagen de fondo desenfocada */}
       <Image
-        source={require('./assets/nfl-background.jpg')} // Ruta de la imagen
+        source={require('./assets/nfl-background.jpg')}
         style={styles.backgroundImage}
-        blurRadius={5} // Aplicar desenfoque
+        blurRadius={5}
       />
 
       {/* Contenido de la aplicación */}
@@ -27,13 +26,13 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover', // Cubrir toda la pantalla
-    position: 'absolute', // Posicionar detrás del contenido
+    resizeMode: 'cover', 
+    position: 'absolute',
     width: '100%',
     height: '100%',
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(255, 255, 255, 0.4)', // Fondo más transparente
+    backgroundColor: 'rgba(255, 255, 255, 0.4)',
   },
 });

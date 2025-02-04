@@ -10,7 +10,7 @@ import {
 import UserInfo from '../components/UserInfo';
 
 const HomeScreen = () => {
-  // Estado para almacenar los datos del formulario
+
   const [formData, setFormData] = useState({
     id: '',
     nombre: '',
@@ -90,15 +90,15 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     justifyContent: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.6)', // Fondo más transparente
-    borderRadius: 10, // Bordes redondeados
-    margin: 20, // Margen para separar del borde de la pantalla
+    backgroundColor: 'rgba(255, 255, 255, 0.6)', 
+    borderRadius: 10, 
+    margin: 20,
   },
   logo: {
-    width: 150, // Ancho del logo
-    height: 100, // Alto del logo
-    alignSelf: 'center', // Centrar el logo
-    marginBottom: 20, // Espacio debajo del logo
+    width: 150,
+    height: 100,
+    alignSelf: 'center',
+    marginBottom: 20,
   },
   title: {
     fontSize: 24,
@@ -112,25 +112,25 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     marginBottom: 10,
     paddingHorizontal: 10,
-    borderRadius: 8, // Bordes redondeados
-    backgroundColor: 'white', // Fondo blanco
-    shadowColor: '#0000ff', // Sombra azul
-    shadowOffset: { width: 0, height: 2 }, // Posición de la sombra
-    shadowOpacity: 0.1, // Opacidad de la sombra
-    shadowRadius: 4, // Radio de la sombra
-    elevation: 3, // Sombra en Android
+    borderRadius: 8,
+    backgroundColor: 'white', 
+    shadowColor: '#0000ff',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   button: {
-    backgroundColor: 'red', // Fondo rojo
-    paddingVertical: 10, // Espacio vertical
-    paddingHorizontal: 20, // Espacio horizontal
-    borderRadius: 25, // Bordes redondeados
-    alignSelf: 'center', // Centrar el botón
+    backgroundColor: 'red',
+    paddingVertical: 10, 
+    paddingHorizontal: 20,
+    borderRadius: 25, 
+    alignSelf: 'center',
     marginTop: 10,
   },
   buttonText: {
-    color: 'white', // Texto blanco
-    fontWeight: 'bold', // Texto en negrita
+    color: 'white',
+    fontWeight: 'bold',
     fontSize: 16,
   },
 });

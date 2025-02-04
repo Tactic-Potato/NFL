@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ccc',
     borderRadius: 8,
-    backgroundColor: 'rgba(255, 255, 255, 0.7)', // Fondo más transparente
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
     alignSelf: 'center',
     width: '80%',
     alignItems: 'center',
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 16,
     marginBottom: 5,
-    textAlign: 'center', // Centrar el texto
+    textAlign: 'center',
   },
 });
 
