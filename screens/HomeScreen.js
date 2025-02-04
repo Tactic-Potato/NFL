@@ -17,6 +17,14 @@ const HomeScreen = () => {
   // Función para manejar el envío del formulario
   const handleSubmit = () => {
     setUserData(formData); // Guardar los datos en el estado
+
+    // Limpiar el formulario
+    setFormData({
+      id: '',
+      nombre: '',
+      email: '',
+      phone: '',
+    });
   };
 
   return (
